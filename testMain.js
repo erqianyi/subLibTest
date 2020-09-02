@@ -1,5 +1,7 @@
 import {testCommon} from "./common/test";
 
-setTimeout(() => {
-  testCommon();
-}, 5000);
+export default function() {
+  setTimeout(() => {
+    testCommon();
+  }, 5000);
+}
