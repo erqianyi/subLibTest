@@ -1,3 +1,3 @@
-export const testCommon = function() {
+module.exports = function() {
   console.log("/common/text/testCommon")
 }

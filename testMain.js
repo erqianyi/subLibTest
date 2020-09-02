@@ -1,7 +1,8 @@
-import {testCommon} from "./common/test";
+const testCommon = require("./common/test");
 
-export default function() {
+module.exports = function() {
   setTimeout(() => {
     testCommon();
-  }, 5000);
+  }, 3000);
 }
+
